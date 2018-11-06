@@ -62,9 +62,13 @@ p {
 }
 
 
-.intro {
+.intro, .intro a {
 	font-style: italic;
 	color: #6892BC;
+}
+
+.intro {
+	margin-bottom: 10px;
 }
 
 a {
