@@ -1,0 +1,173 @@
+/*	CSS Reset	*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+/* ----------------------------------------------------- */
+
+
+html {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #ffffff;
+	font-weight: 600;
+	text-align: center;
+}
+
+body {
+	background-color: #2C3E50;
+
+	/*width: 100%;*/
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	/*flex-grow: 1;*/
+	width: 960px;
+	margin: 35px auto 0;
+	padding-top: 90px;
+	background-color: #34495E;
+}
+
+section {
+	margin-bottom: 100px;
+}
+
+/* ----------------------------------------------------- */
+
+
+p {
+	font-size: 22px;
+	letter-spacing: 2px;
+	font-style: italic;
+	color: #6892BC;
+	margin-bottom: 35px;
+}
+
+a {
+    text-decoration: none;
+	color: #ffffff;
+}
+
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+}
+
+h1 {
+	font-size: 123px;
+	line-height: 120%;
+	color: #2ECC71;
+}
+
+h2 {
+	letter-spacing: 3px;
+	font-size: 46px;
+	margin-bottom: 26px;
+}
+
+h3 {
+	font-size: 46px;
+	line-height: 100%;
+	margin-bottom: -10px;
+}
+
+
+
+/* ----------------------------------------------------- */
+
+header {
+	margin-bottom: 70px;
+}
+
+footer {
+	background-color: #2C3E50;
+	padding: 36px 0 50px 0;
+}
+
+
+
+
+
+section img {
+	width: 100%;
+}
+
+
+#screenshot {
+	padding: 0px;
+}
+
+#screenshot img {
+	width: 100%;
+	image-rendering: pixelated;
+}
+
+#features ul li {
+    padding-left: 16px; 
+    margin-bottom: 8px;
+    list-style-type: none;
+}
+
+#features ul li:before {
+    content: "»";
+    padding-right: 8px;
+}
+
+
+#signup-button {
+	display: inline-block;
+    padding: 16px 32px;
+    margin-bottom: 54px;
+
+	color: #dfc7b5;
+	font-weight: 600;
+	font-size: 26px;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: #232436;
+}
+
+#signup-button:hover {
+	color: #ffffff;
+    background-color: #232436;
+}
+
+#social p {
+	margin-bottom: 26px;
+}
+
+
+#partners {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	/*flex-wrap: wrap;*/
+}
+
+#partners p {
+	display: block;
+	margin: 26px 14px 0px 90px;
+
+	text-align: right;
+	font-size: 16px;
+	color: #ffffff;
+    letter-spacing: 1px;
+}
+
+
+
+#partners img {
+	image-rendering: auto;
+}
+
+
+
